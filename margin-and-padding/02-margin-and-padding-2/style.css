@@ -8,8 +8,6 @@
 - The Big Button is centered on its own line.
 - The Big Button has 24px space on the sides, and 8px on top and bottom.
 */
-
-
 body {
   background: #eee;
   font-family: sans-serif;
@@ -19,25 +17,33 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
-  padding: 8px;
+/* There is 8px between the edge of the card and its content (the blue sections).*/
+  padding: 8px; 
 
 }
 
 .title {
+/*The title of the card uses a 16px font.*/
   font-size: 16px;
   background: #e3f4ff;
+/*There is an 8px gap between each of the blue sections inside the card. */
   margin-top: 8px;
+/*There are 8px between the title text and the edge of the title section.*/
   padding: 8px;
 }
 
 .content {
   background: #e3f4ff;
   margin-bottom:8px;
-  padding: 8px;
+/*The content section has 16px space on the top and bottom, and 8px on either side.*/
+  padding: 16px 8px;
 }
 
 .button-container {
   background: #e3f4ff;
+  /*Everything inside the 
+`.button-container` section is centered, 
+and there is 8px padding.*/
   text-align: center;
   padding: 8px;
 }
@@ -46,6 +52,8 @@ button {
   background: white;
   border: 1px solid #eee;
   display: block;
+/*The Big Button is centered on its own line.*/
   margin: 0 auto;
-  padding: 8px;
+/*The Big Button has 24px space on the sides, and 8px on top and bottom.*/
+  padding: 8px 24px;
 }
