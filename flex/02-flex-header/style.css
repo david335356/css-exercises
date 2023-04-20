@@ -8,10 +8,12 @@ Check out the two screenshots below to get an idea of how it should scale with y
  (Hint: `ul`s have some default margin/padding that you will need to deal with.)
  */
 
+
+
 .header  {
   font-family: monospace;
   background: papayawhip;
-  display: flex;
+  display: flex; 
   align-items: center;
   justify-content: space-between;
   padding: 8px;
